@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f9f8f3">
+  <meta name="description" content="Hitta enkel och riktigt god matinspiration för varje dag.">
+  <title>Smakfullt – gott börjar här</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header"><a class="logo" href="#top" aria-label="Smakfullt, startsida"><span>✳</span> smakfullt<span class="logo-dot">.</span></a><nav aria-label="Huvudmeny"><a href="#recept">Recept</a><a href="#inspiration">Vår filosofi</a></nav><a class="header-link" href="#recept">Hitta något gott <span>↗</span></a></header>
+  <main id="top">
+    <section class="hero"><div class="hero-copy"><div class="eyebrow"><span class="tiny-dot"></span> LITE GODARE VARDAG</div><h1>Mat som gör<br>dagen <em>lite godare.</em></h1><p>Enkla recept, härliga smaker och inspiration för alla stunder runt bordet.</p><a href="#recept" class="button">Utforska recepten <span>↗</span></a><div class="hero-note"><span class="note-stars">★★★★★</span><span>Gott att laga. Ännu godare att dela.</span></div></div><div class="hero-image"><img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1500&q=85" alt="Ett bord fyllt med färska grönsaker och god mat"><div class="image-badge"><span>✳</span> LAGAT MED<br> KÄRLEK</div></div><div class="hero-number">01 / GOD MAT, GOTT LIV</div></section>
+    <section class="recipes section" id="recept"><div class="section-top"><div><div class="eyebrow"><span class="tiny-dot"></span> VAD ÄR DU SUGEN PÅ?</div><h2>Hitta din nästa favorit<span>.</span></h2><p>Från snabba vardagsräddare till något extra gott.</p></div><div class="recipe-count">RECEPT FÖR LIVETS<br>GODA STUNDER <span>↘</span></div></div><div class="toolbar"><div class="filters" aria-label="Filtrera recept"><button class="filter active" data-filter="Alla" aria-pressed="true">Alla recept</button><button class="filter" data-filter="Snabbt" aria-pressed="false">Snabbt & enkelt</button><button class="filter" data-filter="Vegetariskt" aria-pressed="false">Vegetariskt</button><button class="filter" data-filter="Sött" aria-pressed="false">Något sött</button></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Sök efter något gott..." aria-label="Sök recept"></label></div><div class="grid" id="recipe-grid"></div><p class="empty" id="empty" hidden>Inga recept hittades. Prova en annan sökning!</p></section>
+    <section class="manifesto" id="inspiration"><div class="manifesto-icon">✳</div><div><div class="eyebrow">VÅR FILOSOFI</div><h2>Det goda behöver<br>inte vara <em>krångligt.</em></h2><p>Vi tror på mat som samlar människor. På enkla ingredienser, nyfikenhet i köket och att det alltid finns en anledning att njuta lite extra.</p><a href="#recept">Hitta din inspiration <span>↗</span></a></div><div class="manifesto-stamp">GOOD FOOD<br>GOOD MOOD<br><span>✳</span></div></section>
+  </main><footer><a class="logo" href="#top"><span>✳</span> smakfullt<span class="logo-dot">.</span></a><p>Lite mer smak på livet.</p><a href="#top">Tillbaka till toppen ↑</a><small>© 2026 Smakfullt. Gjort för matälskare.</small></footer>
+  <dialog id="recipe-dialog"><button class="close" aria-label="Stäng recept">×</button><div id="dialog-content"></div></dialog>
+</body>
+</html>
